@@ -1,0 +1,98 @@
+main{
+    background-image: url(../../media/imagen-1.JPG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 600px;
+    
+    
+}
+
+
+/* Estilos Generales */
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 4rem;
+    font-family: 'Oswald', sans-serif;
+}
+
+.seccion-oscura{
+    color: black;
+    background-color: #f5f6f7;
+}
+
+.seccion-titulo{
+    font-size: 4rem;
+    padding: 15px 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+/* Seccion Hero */
+
+.hero{
+
+    text-align: center;
+}
+
+.hero-principal{
+    padding: 10rem;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.26);
+    border: 10px;
+}
+
+.btn{
+    margin: 30px auto;
+    display: block;
+}
+
+/* Nosotros */
+
+.nosotros{
+    height: 650px;
+    padding: 10px;
+}
+
+.nosotros .contenedor{
+    max-width: 80%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.seccion-imagen{
+    padding: 0px 150px;
+    
+}
+
+.seccion-texto{
+    padding: 60px 20px 0px ;
+    font-size: 1rem;
+}
+
+/* Eventos */
+
+.carousel-slide{
+    background-color: black;
+    
+}
+
+.seccion-image{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+
+@media screen and (max-width: 767px){
+    .navbar-brand{
+        display: none ;
+    }
+}
